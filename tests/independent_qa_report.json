@@ -1,38 +1,38 @@
 {
-  "checks": 3596,
+  "checks": 3676,
   "failed": 0,
   "errors": [],
   "results": {
     "oxalis-single-regular": {
-      "glyphs": 360,
+      "glyphs": 370,
       "alphabetic_aliases": 0,
       "typographic_edge_touching_pairs": 0,
       "right_edge_typographic_glyphs": 0,
-      "codepoints_checked": 360,
+      "codepoints_checked": 370,
       "notes": []
     },
     "oxalis-single-bold": {
-      "glyphs": 360,
+      "glyphs": 370,
       "alphabetic_aliases": 0,
       "typographic_edge_touching_pairs": 0,
       "right_edge_typographic_glyphs": 0,
-      "codepoints_checked": 360,
+      "codepoints_checked": 370,
       "notes": []
     },
     "oxalis-double-regular": {
-      "glyphs": 360,
+      "glyphs": 370,
       "alphabetic_aliases": 0,
       "typographic_edge_touching_pairs": 0,
       "right_edge_typographic_glyphs": 0,
-      "codepoints_checked": 360,
+      "codepoints_checked": 370,
       "notes": []
     },
     "oxalis-double-bold": {
-      "glyphs": 360,
+      "glyphs": 370,
       "alphabetic_aliases": 0,
       "typographic_edge_touching_pairs": 0,
       "right_edge_typographic_glyphs": 0,
-      "codepoints_checked": 360,
+      "codepoints_checked": 370,
       "notes": []
     }
   }

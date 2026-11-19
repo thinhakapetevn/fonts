@@ -1,6 +1,6 @@
 {
   "OxalisMonobitSingle-Regular": {
-    "glyph_count": 360,
+    "glyph_count": 370,
     "all_glyph_failures": [],
     "left_edge_viet": 128,
     "right_edge_viet": 0,
@@ -30,10 +30,6 @@
         ""
       ],
       [
-        "▼",
-        ""
-      ],
-      [
         "✗",
         ""
       ],
@@ -54,12 +50,49 @@
         "⚠"
       ],
       [
+        "",
+        "▾"
+      ],
+      [
         "",
         "⚡"
       ],
       [
         "",
         "🔋"
+      ],
+      [
+        "↪",
+        ""
+      ],
+      [
+        "↻",
+        ""
+      ],
+      [
+        "⏻",
+        ""
+      ],
+      [
+        "☀",
+        ""
+      ],
+      [
+        "☾",
+        ""
+      ],
+      [
+        "🎤",
+        ""
+      ],
+      [
+        "🔇",
+        ""
+      ],
+      [
+        "🔊",
+        "",
+        ""
       ]
     ],
     "unintended_alias_groups": [
@@ -80,12 +113,49 @@
         "⚠"
       ],
       [
+        "",
+        "▾"
+      ],
+      [
         "",
         "⚡"
       ],
       [
         "",
         "🔋"
+      ],
+      [
+        "↪",
+        ""
+      ],
+      [
+        "↻",
+        ""
+      ],
+      [
+        "⏻",
+        ""
+      ],
+      [
+        "☀",
+        ""
+      ],
+      [
+        "☾",
+        ""
+      ],
+      [
+        "🎤",
+        ""
+      ],
+      [
+        "🔇",
+        ""
+      ],
+      [
+        "🔊",
+        "",
+        ""
       ]
     ],
     "critical_pair_distances": {
@@ -99,11 +169,11 @@
       "ơ/o": 3,
       "ư/u": 3
     },
-    "automated_check_pass": 2210,
-    "automated_check_total": 2210
+    "automated_check_pass": 2270,
+    "automated_check_total": 2270
   },
   "OxalisMonobitSingle-Bold": {
-    "glyph_count": 360,
+    "glyph_count": 370,
     "all_glyph_failures": [],
     "left_edge_viet": 128,
     "right_edge_viet": 0,
@@ -133,10 +203,6 @@
         ""
       ],
       [
-        "▼",
-        ""
-      ],
-      [
         "✗",
         ""
       ],
@@ -157,12 +223,49 @@
         "⚠"
       ],
       [
+        "",
+        "▾"
+      ],
+      [
         "",
         "⚡"
       ],
       [
         "",
         "🔋"
+      ],
+      [
+        "↪",
+        ""
+      ],
+      [
+        "↻",
+        ""
+      ],
+      [
+        "⏻",
+        ""
+      ],
+      [
+        "☀",
+        ""
+      ],
+      [
+        "☾",
+        ""
+      ],
+      [
+        "🎤",
+        ""
+      ],
+      [
+        "🔇",
+        ""
+      ],
+      [
+        "🔊",
+        "",
+        ""
       ]
     ],
     "unintended_alias_groups": [
@@ -183,12 +286,49 @@
         "⚠"
       ],
       [
+        "",
+        "▾"
+      ],
+      [
         "",
         "⚡"
       ],
       [
         "",
         "🔋"
+      ],
+      [
+        "↪",
+        ""
+      ],
+      [
+        "↻",
+        ""
+      ],
+      [
+        "⏻",
+        ""
+      ],
+      [
+        "☀",
+        ""
+      ],
+      [
+        "☾",
+        ""
+      ],
+      [
+        "🎤",
+        ""
+      ],
+      [
+        "🔇",
+        ""
+      ],
+      [
+        "🔊",
+        "",
+        ""
       ]
     ],
     "critical_pair_distances": {
@@ -202,11 +342,11 @@
       "ơ/o": 3,
       "ư/u": 3
     },
-    "automated_check_pass": 2210,
-    "automated_check_total": 2210
+    "automated_check_pass": 2270,
+    "automated_check_total": 2270
   },
   "OxalisMonobitDouble-Regular": {
-    "glyph_count": 360,
+    "glyph_count": 370,
     "all_glyph_failures": [],
     "left_edge_viet": 0,
     "right_edge_viet": 0,
@@ -226,10 +366,6 @@
       [
         "■",
         ""
-      ],
-      [
-        "▼",
-        ""
       ],
       [
         "✗",
@@ -252,12 +388,49 @@
         "⚠"
       ],
       [
+        "",
+        "▾"
+      ],
+      [
         "",
         "⚡"
       ],
       [
         "",
         "🔋"
+      ],
+      [
+        "↪",
+        ""
+      ],
+      [
+        "↻",
+        ""
+      ],
+      [
+        "⏻",
+        ""
+      ],
+      [
+        "☀",
+        ""
+      ],
+      [
+        "☾",
+        ""
+      ],
+      [
+        "🎤",
+        ""
+      ],
+      [
+        "🔇",
+        ""
+      ],
+      [
+        "🔊",
+        "",
+        ""
       ]
     ],
     "unintended_alias_groups": [
@@ -278,12 +451,49 @@
         "⚠"
       ],
       [
+        "",
+        "▾"
+      ],
+      [
         "",
         "⚡"
       ],
       [
         "",
         "🔋"
+      ],
+      [
+        "↪",
+        ""
+      ],
+      [
+        "↻",
+        ""
+      ],
+      [
+        "⏻",
+        ""
+      ],
+      [
+        "☀",
+        ""
+      ],
+      [
+        "☾",
+        ""
+      ],
+      [
+        "🎤",
+        ""
+      ],
+      [
+        "🔇",
+        ""
+      ],
+      [
+        "🔊",
+        "",
+        ""
       ]
     ],
     "critical_pair_distances": {
@@ -297,11 +507,11 @@
       "ơ/o": 3,
       "ư/u": 3
     },
-    "automated_check_pass": 2210,
-    "automated_check_total": 2210
+    "automated_check_pass": 2270,
+    "automated_check_total": 2270
   },
   "OxalisMonobitDouble-Bold": {
-    "glyph_count": 360,
+    "glyph_count": 370,
     "all_glyph_failures": [],
     "left_edge_viet": 0,
     "right_edge_viet": 0,
@@ -321,10 +531,6 @@
       [
         "■",
         ""
-      ],
-      [
-        "▼",
-        ""
       ],
       [
         "✗",
@@ -347,12 +553,49 @@
         "⚠"
       ],
       [
+        "",
+        "▾"
+      ],
+      [
         "",
         "⚡"
       ],
       [
         "",
         "🔋"
+      ],
+      [
+        "↪",
+        ""
+      ],
+      [
+        "↻",
+        ""
+      ],
+      [
+        "⏻",
+        ""
+      ],
+      [
+        "☀",
+        ""
+      ],
+      [
+        "☾",
+        ""
+      ],
+      [
+        "🎤",
+        ""
+      ],
+      [
+        "🔇",
+        ""
+      ],
+      [
+        "🔊",
+        "",
+        ""
       ]
     ],
     "unintended_alias_groups": [
@@ -373,12 +616,49 @@
         "⚠"
       ],
       [
+        "",
+        "▾"
+      ],
+      [
         "",
         "⚡"
       ],
       [
         "",
         "🔋"
+      ],
+      [
+        "↪",
+        ""
+      ],
+      [
+        "↻",
+        ""
+      ],
+      [
+        "⏻",
+        ""
+      ],
+      [
+        "☀",
+        ""
+      ],
+      [
+        "☾",
+        ""
+      ],
+      [
+        "🎤",
+        ""
+      ],
+      [
+        "🔇",
+        ""
+      ],
+      [
+        "🔊",
+        "",
+        ""
       ]
     ],
     "critical_pair_distances": {
@@ -392,13 +672,13 @@
       "ơ/o": 3,
       "ư/u": 3
     },
-    "automated_check_pass": 2210,
-    "automated_check_total": 2210
+    "automated_check_pass": 2270,
+    "automated_check_total": 2270
   },
   "SUMMARY": {
-    "total_glpyhs": 1440,
-    "automated_checks_passed": 8840,
-    "automated_checks_total": 8840,
+    "total_glpyhs": 1480,
+    "automated_checks_passed": 9080,
+    "automated_checks_total": 9080,
     "automated_rate_pct": 100.0,
     "caveat": "Automated engineering audit, NOT human readability validation."
   }

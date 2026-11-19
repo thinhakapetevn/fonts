@@ -20,7 +20,7 @@ CSV=[];stat={}; glyphs_by_stem={};ttf_by_stem={}
 def bdf_decode(path,width):
     txt=path.read_text()
     assert f'FONTBOUNDINGBOX {width} 15 0 -3' in txt
-    assert txt.count(f'DWIDTH {width} 0')==360
+    assert txt.count(f'DWIDTH {width} 0')==370
     out={}
     for part in txt.split('STARTCHAR ')[1:]:
         cp=int(re.search(r'ENCODING (\d+)',part).group(1))
@@ -37,7 +37,7 @@ for stem in STEMS:
     g={chr(int(k[2:],16)):np.array([[c=='#' for c in r] for r in rows],dtype=bool) for k,rows in data.items()}
     bdf=bdf_decode(DIST/(stem+'.bdf'),w)
     ttf=TTFont(DIST/(stem+'.ttf'))
-    assert len(g)==360 and set(g)==set(bdf)==set(chr(c) for c in ttf.getBestCmap())
+    assert len(g)==370 and set(g)==set(bdf)==set(chr(c) for c in ttf.getBestCmap())
     assert all(adv==w*100 for n,(adv,lsb) in ttf['hmtx'].metrics.items())
     assert ttf['OS/2'].sCapHeight==1000
     assert ttf['hhea'].ascent==1200 and ttf['hhea'].descent==-400
@@ -101,12 +101,12 @@ for family in ('Single','Double'):
     b=glyphs_by_stem[f'OxalisMonobit{family}-Bold']
     punct='!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'
     assert all(np.array_equal(r[ch],b[ch]) for ch in punct),'punctuation not identical by weight'
-    assert all(np.sum(r[x].any(axis=1))==np.sum(b[x].any(axis=1)) for x in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123606789'),'cap height weight mismatch'
+    assert all(np.sum(r[x].any(axis=1))==np.sum(b[x].any(axis=1)) for x in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'),'cap height weight mismatch'
     for ch in 'aemnoru':
         assert np.sum(r[ch].any(axis=1))==np.sum(b[ch].any(axis=1)),(family,ch,'xheight mismatch')
 
 count=sum(s['automated_check_pass'] for s in stat.values());total=sum(s['automated_check_total'] for s in stat.values())
-stat['SUMMARY']={'total_glpyhs':len(STEMS)*360,'automated_checks_passed':count,'automated_checks_total':total,
+stat['SUMMARY']={'total_glpyhs':len(STEMS)*370,'automated_checks_passed':count,'automated_checks_total':total,
                  'automated_rate_pct':round(count/total*100,2),
                  'caveat':'Automated engineering audit, NOT human readability validation.'}
 print('AUTOMATED ENGINEERING QA',count,'/',total, f'{100*count/total:.2f}%')

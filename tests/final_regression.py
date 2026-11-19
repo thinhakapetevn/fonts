@@ -12,7 +12,7 @@ for fam,w in [('Single',6),('Double',12)]:
   ttf=TTFont(BASE/(stem+'.ttf'))
   woff=TTFont(BASE/(stem+'.woff2'))
   assert set(ttf.getBestCmap())==set(woff.getBestCmap())==set(map(ord,g))
-  assert len(g)==360
+  assert len(g)==370
   assert ttf['hhea'].ascent==1200 and ttf['hhea'].descent==-400
   assert ttf['OS/2'].sCapHeight==1000
   assert all(advance==w*100 for advance,lsb in ttf['hmtx'].metrics.values())

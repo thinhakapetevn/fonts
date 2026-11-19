@@ -12,7 +12,7 @@ F={
 'oxalis-double-regular':('OxalisMonobitDouble-Regular',12),
 'oxalis-double-bold':('OxalisMonobitDouble-Bold',12)
 }
-corpus=['Son Truong 100%','Nguoi Nguon o rung','Chào mừng đến Tú Làn', 'Người Nguồn ở rừng','Tất cả ký tự phải dễ đọc','0123606789 ABCDEFGHIJKLM','0O 1Il 5S 8B 2Z dđ DĐ']
+corpus=['Son Truong 100%','Nguoi Nguon o rung','Chào mừng đến Tú Làn', 'Người Nguồn ở rừng','Tất cả ký tự phải dễ đọc','0123456789 ABCDEFGHIJKLM','0O 1Il 5S 8B 2Z dđ DĐ']
 alldata={};errors=[];checks=0;results={}
 def check(cond,what):
  global checks
@@ -23,9 +23,9 @@ for face,(fn,w) in F.items():
  g={chr(int(k[2:],16)):np.array([[c=='#' for c in row] for row in rows],dtype=np.uint8) for k,rows in dataset.items()}
  alldata[face]=g
  fn_ttf=D/(fn+'.ttf');tf=TTFont(fn_ttf);wv=TTFont(D/(fn+'.woff2'))
- check(len(g)==360,f'{face}: expected 360 glyphs')
- check(len(tf.getBestCmap())==360,f'{face}: TTF glyph coverage')
- check(len(wv.getBestCmap())==360,f'{face}: WOFF2 glyph coverage')
+ check(len(g)==370,f'{face}: expected 370 glyphs')
+ check(len(tf.getBestCmap())==370,f'{face}: TTF glyph coverage')
+ check(len(wv.getBestCmap())==370,f'{face}: WOFF2 glyph coverage')
  check(set(map(ord,g))==set(tf.getBestCmap()),f'{face}: cmap mismatch')
  check(set(map(ord,g))==set(wv.getBestCmap()),f'{face}: woff2 cmap mismatch')
  check(all(a==w*100 for a,_ in tf['hmtx'].metrics.values()),f'{face}: monospace')
@@ -39,8 +39,8 @@ for face,(fn,w) in F.items():
  for cp,mat in g.items():
   check(not mat[15].any(),f'{face}: glyph U+{ord(cp):04X} spills row15')
   check(np.any(mat) or cp in (' ','\u00a0'),f'{face}: missing ink U+{ord(cp):04X}')
- check(set('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123606789').issubset(g),f'{face}: ASCII letters and digits')
- for c in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123606789':
+ check(set('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789').issubset(g),f'{face}: ASCII letters and digits')
+ for c in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789':
   check(np.flatnonzero(g[c].any(axis=1)).tolist()==list(range(2,12)),f'{face}: cap height 10 {c}')
  # Classical x-height letters at 6 px shared by R/B, Single/Double.
  for c in 'aemnosuxz':
@@ -73,14 +73,14 @@ for face,(fn,w) in F.items():
  for p,q in [('y','ỵ'),('u','ụ')]:
   check(int((g[p]!=g[q]).sum())==1,f'{face}: 1 pixel dot below {p}/{q}')
  # basic ASCII single-component strokes, excluding separated i/j dots, diacritics
- for c in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123606789abcdefghklmnopqrstuvwxz':
+ for c in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghklmnopqrstuvwxz':
   check(label(g[c],np.ones((3,3),dtype=int))[1]==1,f'{face}: broken glyph stroke {c}')
  results[face]={'glyphs':len(g),'alphabetic_aliases':len(baddups),'typographic_edge_touching_pairs':len(coll),'right_edge_typographic_glyphs':len(edge_right), 'codepoints_checked':len(g),'notes':[]}
 # Cross-weight same occupied vertical rows for A-Z/0-9/lowercase plain glyphs.
 for fam in ['single','double']:
  r=alldata[f'oxalis-{fam}-regular']
  b=alldata[f'oxalis-{fam}-bold']
- for c in 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123606789':
+ for c in 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789':
   ra=np.flatnonzero(r[c].any(axis=1))
   ba=np.flatnonzero(b[c].any(axis=1))
   check(np.array_equal(ra,ba),f'{fam} R/B vertical inconsistency {c}: {ra.tolist()} vs {ba.tolist()}')

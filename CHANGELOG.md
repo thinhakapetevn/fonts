@@ -1,7 +1,14 @@
+# Local revision — icon sizing + UI hybrid (2026-11-19)
+
+- Rebuilt the PUA icon set at the full 12×16 Double width; icons no longer render from Unifont/Noto Color Emoji fallbacks.
+- Added 10 PUA icon glyphs (mic, mic-slash, volume-up/down/off, sun, moon, power, logout, reboot); 370 glyphs per canonical face.
+- Added `ui/OxalisMonobitUI-*.ttf`: Single text advances plus Double icon advances for single-font menus such as fuzzel.
+- Waybar now uses PUA Double icons for every icon; powermenu uses the UI hybrid (Single text, Double icons).
+
 # Local revision — standard icon set (2026-11-19)
 
 - Added 15 standard Unicode icons to all four faces: ⚡ U+26A1, ⏻ U+23FB, 🔋 U+1F50B, 🎤 U+1F3A4, 🔊 U+1F50A, 🔇 U+1F507, ⚠ U+26A0, ☀ U+2600, ☾ U+263E, ↪ U+21AA, ↻ U+21BB, ⌂ U+2302, 🔒 U+1F512, ▶ U+25B6, ▾ U+25BE.
-- Each face now has 360 glyphs; atlas regenerated as 20×18 cells.
+- Each face now has 370 glyphs; atlas regenerated as 20×19 cells.
 - BDF, PCF, TTF, WOFF2, per-glyph JSON, metadata and checksums rebuilt.
 - Waybar uses the Double face for every icon; Single remains the text face.
 

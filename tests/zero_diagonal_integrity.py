@@ -42,4 +42,4 @@ for face in faces:
         for yy,s in enumerate(rows):
             for xx,ch in enumerate(s):
                 assert bool(img.getpixel((x+xx,y+yy)))==(ch=='#'),(face,cp,xx,yy)
-print(f'FINAL ZERO REGRESSION: {count}/{count} glyph baselines verified; 1440/1440 atlas cells exact; Double 0 slash unbroken')
+print(f'FINAL ZERO REGRESSION: {count}/{count} glyph baselines verified; 1480/1480 atlas cells exact; Double 0 slash unbroken')
