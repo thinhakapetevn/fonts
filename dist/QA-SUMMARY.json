@@ -1,0 +1,209 @@
+{
+  "OxalisMonobitSingle-Regular": {
+    "glyph_count": 345,
+    "all_glyph_failures": [],
+    "left_edge_viet": 128,
+    "right_edge_viet": 0,
+    "semantic_aliases": [
+      [
+        " ",
+        " "
+      ],
+      [
+        "-",
+        "‐"
+      ],
+      [
+        "–",
+        "−"
+      ],
+      [
+        "←",
+        ""
+      ],
+      [
+        "→",
+        ""
+      ],
+      [
+        "■",
+        ""
+      ],
+      [
+        "▼",
+        ""
+      ],
+      [
+        "✗",
+        ""
+      ]
+    ],
+    "unintended_alias_groups": [],
+    "critical_pair_distances": {
+      "0/O": 15,
+      "1/I": 6,
+      "1/l": 5,
+      "5/S": 9,
+      "8/B": 16,
+      "d/đ": 3,
+      "D/Đ": 3,
+      "ơ/o": 3,
+      "ư/u": 3
+    },
+    "automated_check_pass": 2120,
+    "automated_check_total": 2120
+  },
+  "OxalisMonobitSingle-Bold": {
+    "glyph_count": 345,
+    "all_glyph_failures": [],
+    "left_edge_viet": 128,
+    "right_edge_viet": 0,
+    "semantic_aliases": [
+      [
+        " ",
+        " "
+      ],
+      [
+        "-",
+        "‐"
+      ],
+      [
+        "–",
+        "−"
+      ],
+      [
+        "←",
+        ""
+      ],
+      [
+        "→",
+        ""
+      ],
+      [
+        "■",
+        ""
+      ],
+      [
+        "▼",
+        ""
+      ],
+      [
+        "✗",
+        ""
+      ]
+    ],
+    "unintended_alias_groups": [],
+    "critical_pair_distances": {
+      "0/O": 12,
+      "1/I": 6,
+      "1/l": 5,
+      "5/S": 7,
+      "8/B": 16,
+      "d/đ": 3,
+      "D/Đ": 3,
+      "ơ/o": 3,
+      "ư/u": 3
+    },
+    "automated_check_pass": 2120,
+    "automated_check_total": 2120
+  },
+  "OxalisMonobitDouble-Regular": {
+    "glyph_count": 345,
+    "all_glyph_failures": [],
+    "left_edge_viet": 0,
+    "right_edge_viet": 0,
+    "semantic_aliases": [
+      [
+        " ",
+        " "
+      ],
+      [
+        "←",
+        ""
+      ],
+      [
+        "→",
+        ""
+      ],
+      [
+        "■",
+        ""
+      ],
+      [
+        "▼",
+        ""
+      ],
+      [
+        "✗",
+        ""
+      ]
+    ],
+    "unintended_alias_groups": [],
+    "critical_pair_distances": {
+      "0/O": 22,
+      "1/I": 24,
+      "1/l": 22,
+      "5/S": 18,
+      "8/B": 22,
+      "d/đ": 6,
+      "D/Đ": 6,
+      "ơ/o": 3,
+      "ư/u": 3
+    },
+    "automated_check_pass": 2120,
+    "automated_check_total": 2120
+  },
+  "OxalisMonobitDouble-Bold": {
+    "glyph_count": 345,
+    "all_glyph_failures": [],
+    "left_edge_viet": 0,
+    "right_edge_viet": 0,
+    "semantic_aliases": [
+      [
+        " ",
+        " "
+      ],
+      [
+        "←",
+        ""
+      ],
+      [
+        "→",
+        ""
+      ],
+      [
+        "■",
+        ""
+      ],
+      [
+        "▼",
+        ""
+      ],
+      [
+        "✗",
+        ""
+      ]
+    ],
+    "unintended_alias_groups": [],
+    "critical_pair_distances": {
+      "0/O": 18,
+      "1/I": 11,
+      "1/l": 10,
+      "5/S": 21,
+      "8/B": 20,
+      "d/đ": 4,
+      "D/Đ": 3,
+      "ơ/o": 3,
+      "ư/u": 3
+    },
+    "automated_check_pass": 2120,
+    "automated_check_total": 2120
+  },
+  "SUMMARY": {
+    "total_glpyhs": 1380,
+    "automated_checks_passed": 8480,
+    "automated_checks_total": 8480,
+    "automated_rate_pct": 100.0,
+    "caveat": "Automated engineering audit, NOT human readability validation."
+  }
+}

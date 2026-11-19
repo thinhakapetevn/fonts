@@ -1,0 +1,20 @@
+OXALIS MONOBIT — OWNERSHIP AND LICENSE
+
+Copyright © 2026 Oxalis. All rights reserved.
+
+Oxalis owns the original design work, transformations, curated glyphs, source code,
+artwork, packaging, naming and documentation created for Oxalis Monobit, to the
+extent legally protectable. No blanket public license is granted to the proprietary
+Oxalis modifications in this package.
+
+THIRD-PARTY REFERENCE MATERIAL (PUBLIC DOMAIN)
+The X11 Fixed bitmap font files 6x13, 6x13B, 8x13 and 8x13B contain the statement
+"Public domain font. Share and enjoy." Those original public-domain source glyphs
+remain public-domain and are NOT claimed as exclusive Oxalis property.
+The compact reference data in `sources/x11_compact.py` traces to these glyphs.
+See SOURCE-PROVENANCE.md for exact source URLs.
+
+The selected Unicode private-use symbols may include visually descriptive motifs
+also found in other icon ecosystems; this package does not convey rights to
+third-party trademarks or branding. Any public licensing of these symbols
+requires separate review where applicable.

@@ -1,0 +1,110 @@
+{
+  "family": "Oxalis Monobit",
+  "version": "1.0.0",
+  "date": "2026-11-19",
+  "owner": "Oxalis",
+  "license": "Proprietary Oxalis modifications; X11 Fixed references public domain",
+  "faces": [
+    {
+      "family": "Oxalis Monobit Single",
+      "style": "Regular",
+      "cell": [
+        6,
+        16
+      ],
+      "bbx": [
+        6,
+        15,
+        0,
+        -3
+      ],
+      "advance": 6,
+      "cap_height": 10,
+      "glyphs": 345
+    },
+    {
+      "family": "Oxalis Monobit Single",
+      "style": "Bold",
+      "cell": [
+        6,
+        16
+      ],
+      "bbx": [
+        6,
+        15,
+        0,
+        -3
+      ],
+      "advance": 6,
+      "cap_height": 10,
+      "glyphs": 345
+    },
+    {
+      "family": "Oxalis Monobit Double",
+      "style": "Regular",
+      "cell": [
+        12,
+        16
+      ],
+      "bbx": [
+        12,
+        15,
+        0,
+        -3
+      ],
+      "advance": 12,
+      "cap_height": 10,
+      "glyphs": 345
+    },
+    {
+      "family": "Oxalis Monobit Double",
+      "style": "Bold",
+      "cell": [
+        12,
+        16
+      ],
+      "bbx": [
+        12,
+        15,
+        0,
+        -3
+      ],
+      "advance": 12,
+      "cap_height": 10,
+      "glyphs": 345
+    }
+  ],
+  "QA": {
+    "primary_checks": 8480,
+    "primary_pass": 8480,
+    "independent_checks": 3476,
+    "independent_pass": 3476,
+    "ttf_geometry_cases": 1380,
+    "ttf_geometry_pass": 1380,
+    "woff2_parity_cases": 1380,
+    "woff2_parity_pass": 1380,
+    "atlas_json_bitmaps_verified": 1380,
+    "baseline_glyph_delta_verified": 1380
+  },
+  "human_readability_certified": false,
+  "release_label": "V1.0 FINAL — slash continuity reviewed 2026-11-19",
+  "revision_notes": [
+    "Double Regular U+0030: one bridge pixel at (3,9)",
+    "Double Bold U+0030: slash moved up one row, connected to both contours",
+    "All remaining 1378 glyphs unchanged from preceding v1.0 package"
+  ],
+  "final_optical_correction": {
+    "face": "OxalisMonobitDouble-Regular",
+    "glyph": "U+0030",
+    "old_pixel": [
+      4,
+      9
+    ],
+    "new_pixel": [
+      3,
+      9
+    ],
+    "pixel_change": "one ink pixel relocated left 1px",
+    "unchanged_other_glyphs": 1379
+  }
+}

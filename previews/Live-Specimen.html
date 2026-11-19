@@ -1,0 +1,22 @@
+<!doctype html><html lang="vi"><meta charset="utf-8"><title>Oxalis Monobit v1.0 – Live Specimen</title>
+<style>
+@font-face{font-family:Single;src:url('../dist/OxalisMonobitSingle-Regular.woff2');font-weight:400}
+@font-face{font-family:Single;src:url('../dist/OxalisMonobitSingle-Bold.woff2');font-weight:700}
+@font-face{font-family:Double;src:url('../dist/OxalisMonobitDouble-Regular.woff2');font-weight:400}
+@font-face{font-family:Double;src:url('../dist/OxalisMonobitDouble-Bold.woff2');font-weight:700}
+body{background:#071625;color:#e5f0f4;font-family:system-ui,sans-serif;padding:24px;max-width:1200px;margin:auto}
+h1{font-size:25px}p{color:#a7b9c8}select,textarea{background:#142638;color:#edf8f4;border:1px solid #436179;border-radius:5px;padding:9px}
+textarea{width:100%;height:80px;font-size:14px;box-sizing:border-box}.controls{display:flex;gap:16px;align-items:center;margin:14px 0;flex-wrap:wrap}
+pre{background:#102539;border:1px solid #29485f;padding:16px;border-radius:6px;overflow:auto;line-height:16px;white-space:pre;font-size:16px;font-family:Single;letter-spacing:0;font-synthesis:none;font-kerning:none}
+</style><h1>Oxalis Monobit — Single / Double</h1><p>16px line height · Single 6×16 / Double 12×16 · BBX 6×15 / 12×15 · source BDF/atlas pixel-exact</p>
+<div class="controls"><label>Family <select id="family"><option>Single</option><option>Double</option></select></label>
+<label>Weight <select id="weight"><option value="400">Regular</option><option value="700">Bold</option></select></label></div>
+<textarea id="content">ABCDEFGHIJKLMNOPQRSTUVWXYZ
+abcdefghijklmnopqrstuvwxyz
+0123456789 100% -12.50
+0O 1Il 5S 8B / 0:00
+Tân Hóa - Tú Làn · Người Nguồn ở rừng
+Sắc huyền hỏi ngã nặng: á à ả ã ạ
+Â Ấ Ầ Ẩ Ẫ Ậ · Ơ Ớ Ờ Ở Ỡ Ợ</textarea>
+<pre id="sample"></pre><p>Browser hinting and antialiasing can differ from BDF/PCF. For deterministic pixels use the 1-bit PNG atlas with nearest-neighbor.</p>
+<script>const fam=document.getElementById('family'),wt=document.getElementById('weight'),content=document.getElementById('content'),sample=document.getElementById('sample');function redraw(){sample.style.fontFamily=fam.value;sample.style.fontWeight=wt.value;sample.textContent=content.value;}for(let c of [fam,wt,content])c.addEventListener('input',redraw);redraw();</script></html>

@@ -1,0 +1,3 @@
+Oxalis Monobit Single / Double V1.0 FINAL
+Release revision 2026-11-19 — zero slash continuity
+Final zero optical correction: Double Regular (x=4,y=9) -> (x=3,y=9); all other glyphs unchanged.
