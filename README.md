@@ -11,7 +11,7 @@ Two companion true-bitmap **monospace** font families, each in Regular 400 and B
 
 At 16 px, a Double character occupies exactly two columns of a Single bitmap grid (the app must allocate those two columns itself). Pixel glyphs are 1-bit; source truth is BDF and JSON. Double width extends contours derived from X11 Fixed 8×13 rather than horizontally doubling Single pixels.
 
-Each face includes **345 glyphs**, including ASCII, accented Vietnamese precomposed letters, UI symbols, a selected private-use icon subset, and Powerline. **Not full Nerd Fonts Unicode coverage.** NFC is supported; unrestricted NFD combining mark shaping is not claimed.
+Each face includes **360 glyphs**, including ASCII, accented Vietnamese precomposed letters, UI symbols, a selected private-use icon subset, and Powerline. **Not full Nerd Fonts Unicode coverage.** NFC is supported; unrestricted NFD combining mark shaping is not claimed.
 
 ## Key user-approved decisions
 
@@ -26,11 +26,11 @@ Each face includes **345 glyphs**, including ASCII, accented Vietnamese precompo
 
 - `dist/`: TTF, WOFF2, BDF, PCF, per-glyph JSON, QA CSV/JSON.
 - `atlas/`: native 1-bit PNG spritesheets plus exact Unicode rectangle maps.
-- `previews/`: four-face specimen, complete 345-glyph inventory, zero before/after, interactive HTML.
+- `previews/`: four-face specimen, complete 360-glyph inventory, zero before/after, interactive HTML.
 - `examples/`: CSS and compact notes for bitmap usage.
 - `metadata/`: Unicode repertoire inventory.
 - `tests/`: independent automated checks and bitmap/TrueType-outline geometry parity.
-- `legacy/`: prior Oxalis source assets needed for **rebuilding** the full 345-glyph collection.
+- `legacy/`: prior Oxalis source assets needed for **rebuilding** the full 360-glyph collection.
 - `sources/`: compact original public-domain X11 Fixed glyph references.
 
 ## Technical validation

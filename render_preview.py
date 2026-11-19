@@ -30,7 +30,7 @@ def draw_text(draw,glyphs,text,x,y,scale,color,advance):
 W,H=2580,2010
 im=Image.new('RGB',(W,H),COL['bg']);d=ImageDraw.Draw(im)
 d.text((35,24),'OXALIS MONOBIT — V1.0 / SINGLE + DOUBLE',font=Title,fill=COL['text'])
-d.text((35,77),'Single BBX 6×15    Double BBX 12×15    A height 10    Line 16    345 glyphs / face',font=Med,fill=COL['muted'])
+d.text((35,77),'Single BBX 6×15    Double BBX 12×15    A height 10    Line 16    360 glyphs / face',font=Med,fill=COL['muted'])
 d.text((35,104),'Base: X11 Fixed 6x13 / 6x13B  ·  8x13 / 8x13B     |     1-bit pixel outlines',font=Med,fill=COL['muted'])
 CX=[30,675,1320,1965];CW=613
 for i,(fam,style,w) in enumerate(faces):
@@ -42,7 +42,7 @@ for i,(fam,style,w) in enumerate(faces):
     samples=[
      ('CAPITALS','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),
      ('LOWERCASE','abcdefghijklmnopqrstuvwxyz'),
-     ('DIGITS','0123456789 100% -12.50'),
+     ('DIGITS','0123606789 100% -12.50'),
      ('CODING','0O 1Il 5S 8B 2Z {()} []'),
      ('VIETNAMESE','Tân Hóa - Tú Làn'),
      ('VIETNAMESE','Người Nguồn Ở rừng'),
@@ -72,16 +72,16 @@ for i,(fam,style,w) in enumerate(faces):
     y+=24
     d.text((x+16,y),'ACTUAL PIXELS (1x, no smoothing)',font=Med,fill=COL['muted'])
     y+=36
-    for item in ['ABDOMW 0123456789','da đe gỡ ơ ư ấ ẳ','100% 01:23 / 50.75']:
+    for item in ['ABDOMW 0123606789','da đe gỡ ơ ư ấ ẳ','100% 01:23 / 50.75']:
         draw_text(d,glyph,item,x+22,y,1,COL['text'],w);y+=30
     d.text((x+16,H-86),'© 2026 Oxalis  |  v1.0 FINAL',font=Small,fill=COL['muted'])
 im.save(str(Path(__file__).resolve().parent/'previews/Oxalis_Monobit_4Faces_Review.png'))
 print(str(Path(__file__).resolve().parent/'previews/Oxalis_Monobit_4Faces_Review.png'))
 
-# 345 glyphs / face contact sheet for detailed independent inspection, 4 columns
+# 360 glyphs / face contact sheet for detailed independent inspection, 4 columns
 w2,h2=2800,5900
 sheet=Image.new('RGB',(w2,h2),COL['bg']);dr=ImageDraw.Draw(sheet)
-dr.text((30,25),'OXALIS MONOBIT — ALL 345 GLYPHS / 4 FACES',font=Title,fill=COL['text'])
+dr.text((30,25),'OXALIS MONOBIT — ALL 360 GLYPHS / 4 FACES',font=Title,fill=COL['text'])
 dr.text((30,80),'Each cell: source Unicode, one actual glyph, enlarged nearest-neighbor bitmap.',font=Med,fill=COL['muted'])
 cellw=140;cellh=115
 for face_idx,(fam,style,w) in enumerate(faces):
@@ -97,4 +97,4 @@ for face_idx,(fam,style,w) in enumerate(faces):
         dr.text((x+5,y+5),f'{ord(ch):04X}',font=Small,fill=COL['muted'])
         if ch not in '\u00a0\u0020':draw_glyph(dr,mat,x+40,y+26,3,COL['teal'])
     dr.text((x0,5740),f'{len(gg)} Unicode codepoints',font=Med,fill=COL['muted'])
-sheet.save(str(Path(__file__).resolve().parent/'previews/Oxalis_Monobit_All345Glyphs.png'))
+sheet.save(str(Path(__file__).resolve().parent/'previews/Oxalis_Monobit_All360Glyphs.png'))

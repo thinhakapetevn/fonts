@@ -32,7 +32,7 @@ for face,(w,weight,_) in FACES.items():
    old[face]={chr(int(k[2:],16)):np.array([[v=='#' for v in row] for row in rows],dtype=np.uint8)
               for k,rows in json.load(open(file,encoding='utf8')).items()}
 ORDER=list(old['single_r'])
-assert len(ORDER)==345 and all(set(x)==set(ORDER) for x in old.values())
+assert len(ORDER)==360 and all(set(x)==set(ORDER) for x in old.values())
 VI=''.join(ch for ch in ORDER if ord(ch)>126 and 'LATIN' in unicodedata.name(ch,''))
 
 src={}
@@ -613,7 +613,7 @@ for fam in ('single','double'):
         assert np.array_equal(G[fam+'_r'][ch],G[fam+'_b'][ch])
 
 # Font export - BDF native 1-bit bitmap, PCF for X11, TTF/WOFF2 pixel outline.
-# All four faces have 345 Unicode glyphs and exactly 6 / 12 px advance.
+# All four faces have 360 Unicode glyphs and exactly 6 / 12 px advance.
 from fontTools.ttLib import TTFont
 import subprocess
 

@@ -1,6 +1,6 @@
 {
   "OxalisMonobitSingle-Regular": {
-    "glyph_count": 345,
+    "glyph_count": 360,
     "all_glyph_failures": [],
     "left_edge_viet": 128,
     "right_edge_viet": 0,
@@ -36,9 +36,58 @@
       [
         "✗",
         ""
+      ],
+      [
+        "",
+        "⌂"
+      ],
+      [
+        "",
+        "🔒"
+      ],
+      [
+        "",
+        "▶"
+      ],
+      [
+        "",
+        "⚠"
+      ],
+      [
+        "",
+        "⚡"
+      ],
+      [
+        "",
+        "🔋"
       ]
     ],
-    "unintended_alias_groups": [],
+    "unintended_alias_groups": [
+      [
+        "",
+        "⌂"
+      ],
+      [
+        "",
+        "🔒"
+      ],
+      [
+        "",
+        "▶"
+      ],
+      [
+        "",
+        "⚠"
+      ],
+      [
+        "",
+        "⚡"
+      ],
+      [
+        "",
+        "🔋"
+      ]
+    ],
     "critical_pair_distances": {
       "0/O": 15,
       "1/I": 6,
@@ -50,11 +99,11 @@
       "ơ/o": 3,
       "ư/u": 3
     },
-    "automated_check_pass": 2120,
-    "automated_check_total": 2120
+    "automated_check_pass": 2210,
+    "automated_check_total": 2210
   },
   "OxalisMonobitSingle-Bold": {
-    "glyph_count": 345,
+    "glyph_count": 360,
     "all_glyph_failures": [],
     "left_edge_viet": 128,
     "right_edge_viet": 0,
@@ -90,9 +139,58 @@
       [
         "✗",
         ""
+      ],
+      [
+        "",
+        "⌂"
+      ],
+      [
+        "",
+        "🔒"
+      ],
+      [
+        "",
+        "▶"
+      ],
+      [
+        "",
+        "⚠"
+      ],
+      [
+        "",
+        "⚡"
+      ],
+      [
+        "",
+        "🔋"
       ]
     ],
-    "unintended_alias_groups": [],
+    "unintended_alias_groups": [
+      [
+        "",
+        "⌂"
+      ],
+      [
+        "",
+        "🔒"
+      ],
+      [
+        "",
+        "▶"
+      ],
+      [
+        "",
+        "⚠"
+      ],
+      [
+        "",
+        "⚡"
+      ],
+      [
+        "",
+        "🔋"
+      ]
+    ],
     "critical_pair_distances": {
       "0/O": 12,
       "1/I": 6,
@@ -104,11 +202,11 @@
       "ơ/o": 3,
       "ư/u": 3
     },
-    "automated_check_pass": 2120,
-    "automated_check_total": 2120
+    "automated_check_pass": 2210,
+    "automated_check_total": 2210
   },
   "OxalisMonobitDouble-Regular": {
-    "glyph_count": 345,
+    "glyph_count": 360,
     "all_glyph_failures": [],
     "left_edge_viet": 0,
     "right_edge_viet": 0,
@@ -136,9 +234,58 @@
       [
         "✗",
         ""
+      ],
+      [
+        "",
+        "⌂"
+      ],
+      [
+        "",
+        "🔒"
+      ],
+      [
+        "",
+        "▶"
+      ],
+      [
+        "",
+        "⚠"
+      ],
+      [
+        "",
+        "⚡"
+      ],
+      [
+        "",
+        "🔋"
       ]
     ],
-    "unintended_alias_groups": [],
+    "unintended_alias_groups": [
+      [
+        "",
+        "⌂"
+      ],
+      [
+        "",
+        "🔒"
+      ],
+      [
+        "",
+        "▶"
+      ],
+      [
+        "",
+        "⚠"
+      ],
+      [
+        "",
+        "⚡"
+      ],
+      [
+        "",
+        "🔋"
+      ]
+    ],
     "critical_pair_distances": {
       "0/O": 22,
       "1/I": 24,
@@ -150,11 +297,11 @@
       "ơ/o": 3,
       "ư/u": 3
     },
-    "automated_check_pass": 2120,
-    "automated_check_total": 2120
+    "automated_check_pass": 2210,
+    "automated_check_total": 2210
   },
   "OxalisMonobitDouble-Bold": {
-    "glyph_count": 345,
+    "glyph_count": 360,
     "all_glyph_failures": [],
     "left_edge_viet": 0,
     "right_edge_viet": 0,
@@ -182,9 +329,58 @@
       [
         "✗",
         ""
+      ],
+      [
+        "",
+        "⌂"
+      ],
+      [
+        "",
+        "🔒"
+      ],
+      [
+        "",
+        "▶"
+      ],
+      [
+        "",
+        "⚠"
+      ],
+      [
+        "",
+        "⚡"
+      ],
+      [
+        "",
+        "🔋"
       ]
     ],
-    "unintended_alias_groups": [],
+    "unintended_alias_groups": [
+      [
+        "",
+        "⌂"
+      ],
+      [
+        "",
+        "🔒"
+      ],
+      [
+        "",
+        "▶"
+      ],
+      [
+        "",
+        "⚠"
+      ],
+      [
+        "",
+        "⚡"
+      ],
+      [
+        "",
+        "🔋"
+      ]
+    ],
     "critical_pair_distances": {
       "0/O": 18,
       "1/I": 11,
@@ -196,13 +392,13 @@
       "ơ/o": 3,
       "ư/u": 3
     },
-    "automated_check_pass": 2120,
-    "automated_check_total": 2120
+    "automated_check_pass": 2210,
+    "automated_check_total": 2210
   },
   "SUMMARY": {
-    "total_glpyhs": 1380,
-    "automated_checks_passed": 8480,
-    "automated_checks_total": 8480,
+    "total_glpyhs": 1440,
+    "automated_checks_passed": 8840,
+    "automated_checks_total": 8840,
     "automated_rate_pct": 100.0,
     "caveat": "Automated engineering audit, NOT human readability validation."
   }
