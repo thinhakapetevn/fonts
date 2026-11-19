@@ -4,8 +4,8 @@ import json
 R=Path(__file__).resolve().parent/'dist'
 faces=[('Oxalis Monobit Single','Regular',6),('Oxalis Monobit Single','Bold',6),('Oxalis Monobit Double','Regular',12),('Oxalis Monobit Double','Bold',12)]
 COL={'bg':'#091625','panel':'#102536','grid':'#30475D','text':'#E8F0F6','muted':'#A2B7C6','teal':'#71E4C1','amber':'#F8C5A2'}
-F='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf'
-FB='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf'
+F='/usr/share/fonts/TTF/DejaVuSansMono.ttf'
+FB='/usr/share/fonts/TTF/DejaVuSansMono-Bold.ttf'
 Title=ImageFont.truetype(FB,40);Heading=ImageFont.truetype(FB,23);Small=ImageFont.truetype(F,15);Med=ImageFont.truetype(F,18)
 G={}
 for fam,style,w in faces:
