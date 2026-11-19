@@ -25,6 +25,7 @@ Each face includes **370 glyphs**, including ASCII, accented Vietnamese precompo
 ## Directories
 
 - `dist/`: TTF, WOFF2, BDF, PCF, per-glyph JSON, QA CSV/JSON.
+- `ui/`: `Oxalis Monobit UI` hybrid — Single text advances, Double icon advances (for fuzzel/powermenu).
 - `atlas/`: native 1-bit PNG spritesheets plus exact Unicode rectangle maps.
 - `previews/`: four-face specimen, complete 370-glyph inventory, zero before/after, interactive HTML.
 - `examples/`: CSS and compact notes for bitmap usage.
